@@ -10,7 +10,7 @@ const RankImages = () => {
           </div>
         </div>
         <div className="p-1">
-          <div className="impNoticeImg">
+          <div className="box2">
             <p>18 YEARS OF TRUST</p>
           </div>
         </div>
@@ -20,7 +20,7 @@ const RankImages = () => {
           </div>
         </div>
         <div className="p-1">
-          <div className="impNoticeImg">
+          <div className="box3">
             <p>1:1 STUDENTS PORTFOLIOS</p>
           </div>
         </div>

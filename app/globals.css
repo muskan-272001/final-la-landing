@@ -627,6 +627,43 @@ p {
   font-weight: 600 !important;
 }
 
+.box2 {
+  background-image: url(../public/assets/box2.jpeg);
+  background-size: 100% 100%;
+  width: 198px;
+  height: 217.61px;
+  padding-top: 84px;
+  padding-bottom: 37px;
+  padding-right: 19px;
+  padding-left: 20px;
+  text-align: center;
+  color: white;
+}
+
+.box2 p {
+  text-align: center;
+  font-size: 20px !important;
+  font-weight: 600 !important;
+}
+.box3 {
+  background-image: url(../public/assets/box3.jpeg);
+  background-size: 100% 100%;
+  width: 198px;
+  height: 217.61px;
+  padding-top: 84px;
+  padding-bottom: 37px;
+  padding-right: 19px;
+  padding-left: 20px;
+  text-align: center;
+  color: white;
+}
+
+.box3 p {
+  text-align: center;
+  font-size: 20px !important;
+  font-weight: 600 !important;
+}
+
 /* Media Queries for Responsiveness */
 
 /* For tablets and smaller screens */
@@ -750,7 +787,7 @@ p {
 /* Existing CSS */
 .faq {
   background-color: #fee3a6;
-  height: 1250px;
+  height: 1350px;
   width: 100%; /* Corrected width for full width */
   padding: 30px 160px;
 }
@@ -770,9 +807,9 @@ p {
 
 .testimonials {
   background-color: #ffefd9;
-  width: 1100px;
-  height: 360px;
-  padding: 30px 160px;
+  /* width: 1100px; */
+  height: 500px;
+  /* padding: 30px 160px; */
 }
 
 .testimonialVideo {
@@ -917,6 +954,35 @@ p {
   }
 }
 
+/* Add these styles in your CSS file */
+/* .video-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.video-wrapper .react-player {
+  transition: transform 0.3s ease-in-out;
+}
+
+.video-wrapper:hover .react-player {
+  transform: scale(1.05);
+} */
+
+
+/* Add these styles in your CSS file */
+.video-wrapper {
+  position: relative;
+  overflow: hidden;
+  
+}
+
+.video-wrapper .react-player {
+  transition: transform 0.3s ease-in-out;
+}
+
+.video-wrapper:hover .react-player {
+  transform: scale(1.05);
+}
 
 
 /* =========FOOTER ================================================ */
